@@ -103,8 +103,10 @@ function inicio() {
         prompt("Seleccione un Producto de TV:\n\n" + tvOpciones)
       );
       if (tvElegido === 0 || (tvElegido >= 1 && tvElegido <= i)) {
+        console.log("producto entre 1 y 4");
         pedirPlanTV = false;
       } else {
+        console.log("producto mayor a 4");
         alert("Opción incorrecta, intenta nuevamente.");
       }
     }
@@ -139,8 +141,10 @@ function inicio() {
         internetElegido === 0 ||
         (internetElegido >= 1 && internetElegido <= j)
       ) {
+        console.log("producto entre 1 y 4");
         pedirPlanInternet = false;
       } else {
+        console.log("producto mayor a 4");
         alert("Opción incorrecta, intenta nuevamente.");
       }
     }
