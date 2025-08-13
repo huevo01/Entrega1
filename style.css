@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#aplicacion {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 10px 0px 10px;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0c53d6;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: default;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
