@@ -283,11 +283,11 @@ const mostrarResumen = () => {
 
   const detalle = document.createElement("p");
   detalle.style.fontWeight = "bold";
-  detalle.textContent = `${usuario.nombre} ${usuario.apellido} ha adquirido:`;
+  detalle.textContent = `${usuario.nombre} ${usuario.apellido}, ha adquirido:`;
 
-  const lista = document.createElement("lista");
+  const lista = document.createElement("ul");
   carrito.forEach((prod) => {
-    const listado = document.createElement("listado");
+    const listado = document.createElement("li");
     listado.textContent = `${prod.nombre} - $${prod.precio.toFixed(2)}`;
     lista.appendChild(listado);
   });
