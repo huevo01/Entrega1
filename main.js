@@ -29,7 +29,7 @@ const generarPlanes = () => {
 let usuario = JSON.parse(localStorage.getItem("usuario")) || null;
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-const app = document.getElementById("aplicacion");
+const aplicacion = document.getElementById("aplicacion");
 
 //Local Storage LS
 const guardarLS = () => {
