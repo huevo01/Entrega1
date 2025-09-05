@@ -1,0 +1,12 @@
+{
+  "tv": [
+    { "id": 1, "nombre": "Básico TV", "precio": 500 },
+    { "id": 2, "nombre": "Premium TV", "precio": 800 },
+    { "id": 3, "nombre": "Full HD TV", "precio": 1200 }
+  ],
+  "internet": [
+    { "id": 4, "nombre": "Internet 50MB", "precio": 700 },
+    { "id": 5, "nombre": "Internet 100MB", "precio": 1000 },
+    { "id": 6, "nombre": "Internet 200MB", "precio": 1500 }
+  ]
+}
